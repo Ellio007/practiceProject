@@ -1,12 +1,12 @@
 package com.tyh.practiceproject.ui.dashboard
 
+import android.graphics.drawable.Animatable
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
+import androidx.core.content.res.ResourcesCompat
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.tyh.practiceproject.R
 import com.tyh.practiceproject.databinding.FragmentDashboardBinding
@@ -31,11 +31,19 @@ class DashboardFragment : Fragment() {
         _binding = FragmentDashboardBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textDashboard
-        dashboardViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
+        binding.iv.setImageDrawable(ResourcesCompat.getDrawable(resources, R.drawable.flower_anim,null))
+//        binding.iv.setImageDrawable(ResourcesCompat.getDrawable(resources, R.drawable.electric_vehicle_anim,null))
+        binding.iv.setOnClickListener {
+            startAnim()
+        }
         return root
+    }
+
+    private fun startAnim() {
+        val drawable = binding.iv.drawable
+        if (drawable is Animatable) {
+            (drawable as Animatable).start()
+        }
     }
 
     override fun onDestroyView() {

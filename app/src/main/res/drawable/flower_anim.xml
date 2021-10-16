@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_flower">
+
+    <target
+        android:animation="@animator/svg_path_anim"
+        android:name="leaf1"/>
+    <target
+        android:animation="@animator/svg_path_anim"
+        android:name="leaf2"/>
+    <target
+        android:animation="@animator/svg_path_anim"
+        android:name="leaf3"/>
+    <target
+        android:animation="@animator/svg_path_anim"
+        android:name="leaf4"/>
+    <target
+        android:animation="@animator/svg_path_anim"
+        android:name="leaf5"/>
+    <target
+        android:animation="@animator/svg_path_anim"
+        android:name="leaf6"/>
+    <target
+        android:animation="@animator/svg_path_anim"
+        android:name="leaf7"/>
+    <target
+        android:animation="@animator/svg_path_anim"
+        android:name="root"/>
+</animated-vector>

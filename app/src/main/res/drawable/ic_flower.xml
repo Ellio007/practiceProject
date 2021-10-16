@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="73.51dp"
+    android:height="73.51dp"
+    android:viewportWidth="73.51"
+    android:viewportHeight="73.51">
+
+    <path
+        android:name="leaf1"
+        android:fillColor="#fcd765"
+        android:pathData="M35.67,33.93s-8.5-6.22-4.85-17.76S34.13,28.61,35.67,33.93Z" />
+    <path
+        android:name="leaf2"
+        android:fillColor="#fcd765"
+        android:pathData="M35,33.93S19,31.48,19.9,17.83,29.68,32.9,35,33.93Z" />
+    <path
+        android:name="leaf3"
+        android:fillColor="#fcd765"
+        android:pathData="M31.48,34S16.28,43.59,11,26.54,26.36,36.91,31.48,34Z" />
+    <path
+        android:name="leaf4"
+        android:fillColor="#fcd765"
+        android:pathData="M38.73,33.1s8.5-6.22,4.84-17.77S40.27,27.78,38.73,33.1Z" />
+    <path
+        android:name="leaf5"
+        android:fillColor="#fcd765"
+        android:pathData="M37,34s4-12.79 0.61 -18.48C33.46,8.75,36.57,26.94,37,34Z" />
+    <path
+        android:name="leaf6"
+        android:fillColor="#fcd765"
+        android:pathData="M39.43,33.1s16-2.45,15.07-16.1S44.71,32.07,39.43,33.1Z" />
+    <path
+        android:name="leaf7"
+        android:fillColor="#fcd765"
+        android:pathData="M42.92,33.19s15.2,9.56,20.43-7.48S48,36.08,42.92,33.19Z" />
+    <path
+        android:name="root"
+        android:strokeColor="#000"
+        android:strokeWidth="1"
+        android:strokeMiterLimit="10"
+        android:pathData="M38.1,36.69S35.78,53.26,45.36,62.3" />
+</vector>
