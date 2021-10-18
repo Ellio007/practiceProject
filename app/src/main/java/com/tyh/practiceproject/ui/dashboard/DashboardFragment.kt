@@ -5,11 +5,13 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import androidx.core.content.res.ResourcesCompat
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.tyh.practiceproject.R
 import com.tyh.practiceproject.databinding.FragmentDashboardBinding
+import com.tyh.practiceproject.ui.AnimationUtils
 
 class DashboardFragment : Fragment() {
 
@@ -31,20 +33,20 @@ class DashboardFragment : Fragment() {
         _binding = FragmentDashboardBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        binding.iv.setImageDrawable(ResourcesCompat.getDrawable(resources, R.drawable.flower_anim,null))
-//        binding.iv.setImageDrawable(ResourcesCompat.getDrawable(resources, R.drawable.electric_vehicle_anim,null))
+//        binding.iv.setImageDrawable(ResourcesCompat.getDrawable(resources, R.drawable.flower_anim,null))
+        binding.iv.setImageDrawable(
+            ResourcesCompat.getDrawable(
+                resources,
+                R.drawable.electric_vehicle_anim,
+                null
+            )
+        )
         binding.iv.setOnClickListener {
-            startAnim()
+            AnimationUtils.startAnim(binding.iv)
         }
         return root
     }
 
-    private fun startAnim() {
-        val drawable = binding.iv.drawable
-        if (drawable is Animatable) {
-            (drawable as Animatable).start()
-        }
-    }
 
     override fun onDestroyView() {
         super.onDestroyView()

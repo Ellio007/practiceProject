@@ -5,15 +5,21 @@
       <map>
         <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.35185185185185186" />
         <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/drawable/01____.xml" value="0.36923076923076925" />
+        <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/drawable/animated_pause_play.xml" value="0.36923076923076925" />
+        <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/drawable/animated_play_pause.xml" value="0.36923076923076925" />
         <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/drawable/electric_vehicle_anim.xml" value="0.36923076923076925" />
+        <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/drawable/flower_anim.xml" value="0.36923076923076925" />
         <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/drawable/hua_anim.xml" value="0.36923076923076925" />
         <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/drawable/ic_baseline_4k_24.xml" value="0.36923076923076925" />
         <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.36923076923076925" />
         <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/drawable/ic_electric_vehicle.xml" value="0.36923076923076925" />
         <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/drawable/ic_flower.xml" value="0.36923076923076925" />
         <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/drawable/svg_pathanim.xml" value="0.36923076923076925" />
+        <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/drawable/vector_pause.xml" value="0.178125" />
+        <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/drawable/vector_play.xml" value="0.36923076923076925" />
         <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/layout/activity_main.xml" value="0.29528985507246375" />
         <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/layout/fragment_dashboard.xml" value="0.34057971014492755" />
+        <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/layout/fragment_home.xml" value="0.32971014492753625" />
         <entry key="..\:/Android/RemoteProject/practiceProject/app/src/main/res/menu/bottom_nav_menu.xml" value="0.35885416666666664" />
       </map>
     </option>
